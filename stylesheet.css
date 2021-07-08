@@ -1,0 +1,105 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans";
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
+.header {
+  background-color: #001881;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+}
+
+.main {
+  padding: 100px 80px;
+  background-image: url(https://image.app.goo.gl/4a8D433csnPBYfkF9);
+  background-size: cover;
+}
+
+.copy-container h1 {
+  font-size: 80px;
+}
+span {
+  color: orangered;
+}
+
+.copy-container h2 {
+  font-size: 50px;
+  font-family: "Segoe UI";
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.search {
+  padding: 8px 15px;
+  background: rgba(238, 197, 197, 0.2);
+  border: 0px solid #dbdbdb;
+  float: right;
+  margin-top: 10px;
+}
+
+.button {
+  position: relative;
+  padding: 6px 15px;
+  background-color: #6beba6;
+  border: 2px solid #53bd84;
+  color: #fafafa;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fafafa;
+  color: #008080;
+}
+
+.button:active {
+  background-color: #6beba6;
+  box-shadow: none;
+  top: 5px;
+  position: relative;
+}
+
+.footer {
+  padding-top: 30px;
+  background-color: cadetblue;
+  color: #fff;
+  height: 60px;
+  padding: 40px;
+}
+
+.footer logo {
+  width: 125px;
+  float: left;
+  font-size: 32px;
+}
+
+.footer p {
+  color: #444;
+  font-size: 20px;
+}
